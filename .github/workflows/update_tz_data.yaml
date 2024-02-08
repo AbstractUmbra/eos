@@ -3,7 +3,7 @@ name: Update eos-tzdata
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0,12 * * *"
+    - cron: "0 0 1 * *"
   push:
     paths:
       # if we change any of the non-generated items in tzdata, recheck
